@@ -15,7 +15,7 @@
 #  #!/bin/bash
 #  # <your code>
 #  # Import live clish (must stay at the end)
-#  CLISH_URL='https://gist.githubusercontent.com/mrjk/775a53666fa10a5f40cc9297c5cbf835/raw/55ba7997f411119f3ee8f9d592ab25cd5523d9b4/clish.bash'
+#  CLISH_URL='https://raw.githubusercontent.com/mrjk/clish/main/clish.bash'
 #  CLISH_LIB=/tmp/clish-$(id -u)
 #  . $CLISH_LIB 2>/dev/null || { curl -s "$CLISH_URL" -o $CLISH_LIB && . $CLISH_LIB ; }
 #  clish_init "$@"
